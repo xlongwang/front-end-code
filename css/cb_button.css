@@ -1,0 +1,41 @@
+.zb-button{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-appearance: none;
+
+    display: inline-block;
+    padding: 12px 20px;
+    border: 1px solid #dcdfe6;
+    margin: 0;
+
+    border-radius: 4px;
+    background-color: #fff;
+    outline: 0;
+    color: #606266;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    transition: .1s;
+    -webkit-transition: .1s
+}
+
+
+.zb-button.zb-button--sure__big{
+    width: 280px;
+    background: #FF2C55;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.zb-button--sure__big:hover{
+    background-color: #ff6583;
+}
+.zb-button--sure__big:active{
+    background-color: #ff365d;
+}
